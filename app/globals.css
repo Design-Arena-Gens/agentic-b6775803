@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji"; background: #0b1020; color: #e6eaf2 }
+ a { color: #8ab4ff; text-decoration: none; }
+ input, textarea, button, select { font: inherit }
+ .card { background: #131a2a; border: 1px solid #1f2a44; border-radius: 12px; padding: 16px }
+ .muted { color: #9db1d1 }
+ .btn { background: #3352ff; color: white; border: none; border-radius: 10px; padding: 10px 14px; cursor: pointer }
+ .btn.secondary { background: #243153 }
+ .btn:disabled { opacity: .6; cursor: not-allowed }
+ .field { display: flex; gap: 8px; align-items: center }
+ .field input, .field textarea { flex: 1; background: #0f1626; border: 1px solid #1f2a44; color: #e6eaf2; border-radius: 10px; padding: 10px 12px }
+ .row { display: flex; gap: 16px }
+ .col { flex: 1 }
+ code { background: #0f1626; padding: 2px 6px; border-radius: 6px }
+ table { width: 100%; border-collapse: collapse }
+ th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #1f2a44 }
+ .badge { display: inline-block; padding: 2px 6px; border-radius: 6px; background: #203256; color: #c6d4f0; font-size: 12px }
